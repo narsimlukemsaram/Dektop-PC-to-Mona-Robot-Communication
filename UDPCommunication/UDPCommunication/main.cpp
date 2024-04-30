@@ -4,10 +4,8 @@
 
 int main() {
 	int socketPort = 54007;
-	char serverIP[] = "192.168.0.119"; // "192.168.1.157"; PC as a Server  
-	char clientIP[] = "192.168.0.188"; // "192.168.1.116"; Mona Robot as a Client 
-	// char serverIP[] = "192.168.0.188"; // "192.168.1.157"; PC as a Server  
-	// char clientIP[] = "192.168.0.119"; // "192.168.1.116"; Mona Robot as a Client 
+	char serverIP[] = "serverIP"; // PC as a Server  
+	char clientIP[] = "clientIP"; // Mona Robot as a Client 
 	UDPDriver driver;
 	driver.initialise(serverIP, socketPort, clientIP);
 
