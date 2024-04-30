@@ -51,8 +51,6 @@ void UDPDriver::disconnect() {
     status = ENDED;
 }
 
-
-
 /*
 initializes Winsock, starts the broadcasting thread, and then enters a loop where it waits for user input to either change the broadcast frequency or exit the program.
 */
